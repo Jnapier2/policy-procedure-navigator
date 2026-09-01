@@ -144,7 +144,7 @@ def create_fallback_export(capsule_path: Path, trigger: str, fingerprint: str) -
             ("08_MANIFEST.sha256", ROOT / "MANIFEST.sha256"),
             ("09_QUICK_START.md", ROOT / "QUICK_START.md"),
             ("10_KNOWN_GOOD_STATE.md", ROOT / "KNOWN_GOOD_STATE.md"),
-            ("11_TRANSFER_BRIEF.md", ROOT / "TRANSFER_BRIEF.md"),
+            ("11_RELEASE_GUIDE.md", ROOT / "RELEASE_GUIDE.md"),
             ("12_FIELD_REPAIR_REPORT.md", ROOT / "FIELD_REPAIR_REPORT.md"),
         ]
         for name, source in static:

@@ -45,7 +45,7 @@ _ALLOWED_LOG_LEVELS = {"DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"}
 def _validated_host(value: str | None) -> str:
     host = (value or "127.0.0.1").strip().lower()
     if host not in _LOOPBACK_HOSTS:
-        raise ValueError("This portfolio release permits loopback-only hosting")
+        raise ValueError("This local release permits loopback-only hosting")
     return host
 
 

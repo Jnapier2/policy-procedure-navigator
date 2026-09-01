@@ -20,7 +20,7 @@
 
 ## 0.3.0 — 2026-08-31
 
-- Reframed the active portfolio release as a zero-credential, local recruiter demonstration.
+- Reframed the active release as a credential-free, guided local demonstration.
 - Removed the external inference/provider call path and its runtime-only HTTP dependencies.
 - Reduced supported local configuration to loopback host, port, and log level; unsupported provider/secret keys are ignored.
 - Added a four-step recruiter quick tour covering grounded answers, permission-aware abstention, authorized restricted evidence, and deterministic evaluation.
@@ -28,7 +28,7 @@
 - Added a bounded read-only local benchmark with cold/warm p50/p95 latency, stage timing, and retrieval-cache measurements.
 - Advanced SQLite to schema version 3 and added indexes for documents, reviews, audit events, query history, feedback, and evaluation history.
 - Preserved one active BAT, exact-hash legacy-overlay recovery, non-destructive port fallback, release identity, migration backups, cache invalidation, audit serialization, liveness/readiness, and Export20.
-- Updated recruiter-facing copy and documentation to emphasize governance, verification, workflow, and reproducibility rather than model-provider setup.
+- Updated user-facing copy and documentation to emphasize governance, verification, workflow, and reproducibility rather than provider setup.
 - Renamed the active deterministic implementation/configuration paths to `app/answer_engine.py`, `config/engine_catalog.json`, and `config/answer_policy.json`; no legacy duplicate copies remain.
 - Renamed the version-specific foundation regression file to `tests/test_foundation.py` and added API-level recruiter tour, benchmark, and backed-up reset coverage.
 - Refreshed demo-reset status state after reseeding so the live status endpoint cannot report stale bootstrap metadata.

@@ -30,7 +30,7 @@ The landing page contains four one-click scenarios: grounded vendor approval, em
 
 ## Design decision: keyless demo
 
-The portfolio release intentionally avoids external inference credentials. That keeps the walkthrough reproducible, avoids account/setup friction, and makes the governance behavior itself the focus. A production implementation could integrate an approved model behind the same authorization/evidence/action boundaries, but that infrastructure is outside the local demo.
+The local release intentionally avoids external inference credentials. That keeps the walkthrough reproducible, avoids account/setup friction, and makes the governance behavior itself the focus. A production implementation could integrate an approved model behind the same authorization, evidence, and action boundaries, but that infrastructure is outside the local demo.
 
 ## Skills demonstrated
 

@@ -161,6 +161,6 @@ def generate_answer(
     authority: dict[str, Any],
 ) -> GenerationResult:
     # settings is retained in the signature to keep the service boundary stable.
-    # The portfolio release is intentionally deterministic and keyless.
+    # The local release is intentionally deterministic and credential-free.
     _ = settings
     return deterministic_answer(question_redacted, evidence, checklist, insufficient_evidence, authority)

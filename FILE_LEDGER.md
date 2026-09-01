@@ -30,7 +30,7 @@ This ledger indexes every file intended to ship in the clean release tree. Runti
 | `MANIFEST.json` | Release/dependency control | Generated immutable managed-file inventory with sizes and SHA-256 hashes. | Release control | Updated in 0.3.0 |
 | `MANIFEST.sha256` | Release/dependency control | SHA-256 sidecar authenticating MANIFEST.json. | Release control | Updated in 0.3.0 |
 | `PACKAGE_METADATA.json` | Release/dependency control | Canonical identity, launcher registry, output roots, and release lineage. | Managed immutable | Updated in 0.3.0 |
-| `PORTFOLIO_CASE_STUDY.md` | Documentation/legal | Recruiter-facing business value, walkthrough, and design rationale. | Managed immutable | Updated in 0.3.0 |
+| `PORTFOLIO_CASE_STUDY.md` | Documentation/legal | Business outcomes, walkthrough, and design rationale. | Managed immutable | Updated in 0.3.0 |
 | `PolicyNavigator.bat` | Windows entrypoint | Only active BAT/CMD entrypoint; discovers Python and dispatches the governed launcher. | Managed immutable | Updated in 0.3.0 |
 | `EXPORT_SUPPORT.bat` | Operations/action entrypoint | Logic-free convenience forwarder to `PolicyNavigator.bat export`; contains no exporter logic. | Managed immutable | Added in 0.3.2 |
 | `QUICK_START.md` | Documentation/legal | Minimal Windows launch, recruiter tour, reset, maintenance, and recovery guide. | Managed immutable | Updated in 0.3.0 |
@@ -40,7 +40,7 @@ This ledger indexes every file intended to ship in the clean release tree. Runti
 | `SBOM.json` | Release/dependency control | CycloneDX dependency inventory separating runtime and development-only packages. | Managed immutable | Updated in 0.3.0 |
 | `SECURITY_AND_LIMITATIONS.md` | Documentation/legal | Implemented safeguards, local/keyless boundary, and production limitations. | Managed immutable | Updated in 0.3.0 |
 | `THIRD_PARTY_NOTICES.md` | Documentation/legal | Dependency license and redistribution notice. | Managed immutable | Carried from 0.2.2 |
-| `TRANSFER_BRIEF.md` | Documentation/legal | Continuation/handoff state for future work. | Managed immutable | Updated in 0.3.0 |
+| `RELEASE_GUIDE.md` | Documentation/legal | Current release direction, safeguards, and rollback guidance. | Managed immutable | Added in 0.3.2 |
 | `VERIFICATION_REPORT.md` | Documentation/legal | Source-freeze qualification evidence and exact-artifact verification procedure. | Managed immutable | Updated in 0.3.0 |
 | `VERSION.txt` | Release/dependency control | Canonical running release version. | Managed immutable | Updated in 0.3.0 |
 | `app/__init__.py` | Application | Package/version/build constants used by release identity and API status. | Managed immutable | Updated in 0.3.0 |

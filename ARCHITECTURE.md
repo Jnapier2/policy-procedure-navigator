@@ -20,7 +20,7 @@ PolicyNavigator.bat
               -> query/audit persistence
 ```
 
-The portfolio release is intentionally a single local application rather than a microservice system. The architecture favors inspectability, deterministic behavior, low startup friction, and strong governance boundaries.
+The application is intentionally a single local service rather than a microservice system. The architecture favors inspectability, deterministic behavior, low startup friction, and strong governance boundaries.
 
 ## Trust boundaries
 
@@ -33,7 +33,7 @@ The portfolio release is intentionally a single local application rather than a 
 
 ## Keyless answer engine
 
-`app/answer_engine.py` is the single active deterministic answer-synthesis implementation for the portfolio release. It selects concise evidence sentences or governed checklist items, cites locally assigned source identifiers, and abstains when current permitted evidence is inadequate. No network inference adapter is active or required.
+`app/answer_engine.py` is the single active deterministic answer-synthesis implementation. It selects concise evidence sentences or governed checklist items, cites locally assigned source identifiers, and abstains when current permitted evidence is inadequate. No network inference adapter is active or required.
 
 ## Persistence and concurrency
 

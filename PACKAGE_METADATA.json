@@ -22,7 +22,6 @@
     "artifact_sha256": "ace1d77085506b018ad4db82bd8aff3faf987cc45c88f4a1e486c2ab8d79df73",
     "status": "rollback source with Windows support evidence; full Norton/start promotion gate not recorded"
   },
-  "source_parameter_baseline": "Gateway shared project defaults v2.17.13",
   "notes": "v2.17.13-aligned keyless recruiter-demo maintenance release: preserves v0.3.1 UI recovery and adds one explicit root EXPORT_SUPPORT.bat convenience entrypoint that forwards only to the governed export action; export logic remains centralized in scripts/export20.py.",
   "package_id": "gateway.professional-portfolio.governed-knowledge-workflow-assistant",
   "source_parameter_sha256": "63bda0b5f61ba44f18f55c5b75512085ed3a2fe67c575e3406a5877ecd5f4566",

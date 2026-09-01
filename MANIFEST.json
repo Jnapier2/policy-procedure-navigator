@@ -3,9 +3,9 @@
   "package_id": "gateway.professional-portfolio.governed-knowledge-workflow-assistant",
   "version": "0.3.2",
   "build_id": "PP-GKWA-0.3.2-B20260831-EXPORTENTRY1",
-  "generated_at": "2026-09-01T07:04:57+00:00",
+  "generated_at": "2026-09-01T07:59:17+00:00",
   "hash_algorithm": "SHA-256",
-  "managed_file_count": 82,
+  "managed_file_count": 83,
   "managed_files": [
     {
       "path": ".env.example",
@@ -34,8 +34,8 @@
     },
     {
       "path": "app/answer_engine.py",
-      "size_bytes": 6218,
-      "sha256": "f272f98b6409b44afd00ab47c109e2322efc0493a1df1aef0d515a782079ca2a"
+      "size_bytes": 6222,
+      "sha256": "05620eb08fa87274699209e341eb099ce51dd0a48a14e7931231d246584e1851"
     },
     {
       "path": "app/benchmark.py",
@@ -44,8 +44,8 @@
     },
     {
       "path": "app/config.py",
-      "size_bytes": 4435,
-      "sha256": "2b8b3b54d094681bfe9ea64daf01f9e9ad7a2f6b8fa5bdbb1e3d52f6b2c687b3"
+      "size_bytes": 4431,
+      "sha256": "c51b7684c279588e91fb6dea4da62b7efc4ddbb2af5efad9b307e8337c743e24"
     },
     {
       "path": "app/database.py",
@@ -54,8 +54,8 @@
     },
     {
       "path": "app/diagnostics.py",
-      "size_bytes": 20857,
-      "sha256": "caa09f0d772b5a977520562bd283a9d39fb7a4abd5f3a5624737b6a4ceb07ce6"
+      "size_bytes": 20855,
+      "sha256": "5fc280aec43e5e1d17f7fd65dda4df8b0779bd58bbebe51c804394af6db9170b"
     },
     {
       "path": "app/evals.py",
@@ -139,13 +139,13 @@
     },
     {
       "path": "ARCHITECTURE.md",
-      "size_bytes": 5839,
-      "sha256": "2fe599c65b8e6ca1d38c41f3f37bf5a134d1b5aba8577cccf0d462a178853736"
+      "size_bytes": 5803,
+      "sha256": "c4e16ea4a37546dcb7d394aa467fe29fa258c34d81034a1fdddcd4ada5e36ca4"
     },
     {
       "path": "CHANGELOG.md",
-      "size_bytes": 12359,
-      "sha256": "f1fa2d54f95a8314bd479ba6e973e5c5d0984e0c60ebaa81d90228f0479d54a0"
+      "size_bytes": 12335,
+      "sha256": "6cd9858cc459a76fe0eb3478deba477cc3941c7408bd8abe460c98cbf3178a3c"
     },
     {
       "path": "config/answer_policy.json",
@@ -224,13 +224,13 @@
     },
     {
       "path": "FILE_LEDGER.md",
-      "size_bytes": 17003,
-      "sha256": "af80a2031346623e5bb43a250438217644edf64e359415f32cd4ab0c45150249"
+      "size_bytes": 17004,
+      "sha256": "c160475fb3b9d2e4bf4720a4a1e166dac1b32f431144707d0176511f821afc50"
     },
     {
       "path": "KNOWN_GOOD_STATE.md",
-      "size_bytes": 2025,
-      "sha256": "cf09a21a69a5f4415a661dd26e9537488b680ab5579a89fba95f5f59f806d5f4"
+      "size_bytes": 2048,
+      "sha256": "8fc304823528cfb557a3dd23aee6501a640e09e5b67aed167c66e3c1043a3f2c"
     },
     {
       "path": "LICENSE.txt",
@@ -239,8 +239,8 @@
     },
     {
       "path": "PACKAGE_METADATA.json",
-      "size_bytes": 3116,
-      "sha256": "1853c3630fa66662fc93eeccef6ceb45f01fbb2a606b794209b750170c48e210"
+      "size_bytes": 3041,
+      "sha256": "c658e6ffd9d6e9e4ef0d59bc95b97c3e4fe8c2bcd3c5b158b9f314fbc9896619"
     },
     {
       "path": "PolicyNavigator.bat",
@@ -249,8 +249,8 @@
     },
     {
       "path": "PORTFOLIO_CASE_STUDY.md",
-      "size_bytes": 2792,
-      "sha256": "a0ae36acce81dd1a53b4598bd516728a0443be4dc1bb5cb31141497a1e082d77"
+      "size_bytes": 2794,
+      "sha256": "8b6149118ced3cfb49ea2569ca1b38dc86b15cdbfb3f98671e52fef1e2f0b98c"
     },
     {
       "path": "pyproject.toml",
@@ -266,6 +266,11 @@
       "path": "README.md",
       "size_bytes": 6474,
       "sha256": "6b5d5a0140bcac38ea6a63ed407b0b91168632522847b2e66a35b9d88741e41e"
+    },
+    {
+      "path": "RELEASE_GUIDE.md",
+      "size_bytes": 1463,
+      "sha256": "468cc5d67e1bd2f99eaa3188331efc21f8bb3c73dc7375fba182ea03c8187147"
     },
     {
       "path": "RELEASE_NOTES.md",
@@ -319,8 +324,8 @@
     },
     {
       "path": "scripts/launcher_failure_capsule.py",
-      "size_bytes": 10246,
-      "sha256": "aec75d13f8888acc493c5503fc037076b40fd73dcd14c5f62e6b51b2b46d3d0e"
+      "size_bytes": 10244,
+      "sha256": "ae648e55ad9280d19e530a06065b90761b6ff90c8db4e28ef28f750c090b4394"
     },
     {
       "path": "scripts/run_evaluations.py",
@@ -341,6 +346,11 @@
       "path": "scripts/windows_launcher.py",
       "size_bytes": 38053,
       "sha256": "ac6a93b0003ad4e421a19a4422e8d02811eb5e866faa5f20d087a7fca33d1169"
+    },
+    {
+      "path": "SECURITY.md",
+      "size_bytes": 780,
+      "sha256": "b5f371c9c8dc262187d346a0dd5ade7a9062b220b47b1451732ec1dcffb97d16"
     },
     {
       "path": "SECURITY_AND_LIMITATIONS.md",
@@ -401,11 +411,6 @@
       "path": "THIRD_PARTY_NOTICES.md",
       "size_bytes": 993,
       "sha256": "e4a582952157aef1f8b4f98fa7f72d32ed6ec2cea1e684e6db4e14e9bb164ba4"
-    },
-    {
-      "path": "TRANSFER_BRIEF.md",
-      "size_bytes": 2234,
-      "sha256": "261c0052337d105f7feca864a7158cbbfc1cf07ecd118ca61dc9c11e062d443e"
     },
     {
       "path": "VERIFICATION_REPORT.md",

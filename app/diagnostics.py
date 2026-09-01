@@ -310,7 +310,7 @@ def build_export20(
             ("16_SBOM.json", settings.root / "SBOM.json"),
             ("17_GOLDEN_QUESTIONS.json", settings.root / "evals" / "golden_questions.json"),
             ("18_SECURITY_AND_LIMITATIONS.md", settings.root / "SECURITY_AND_LIMITATIONS.md"),
-            ("19_TRANSFER_BRIEF.md", settings.root / "TRANSFER_BRIEF.md"),
+            ("19_RELEASE_GUIDE.md", settings.root / "RELEASE_GUIDE.md"),
             ("20_FILE_LEDGER.md", settings.root / "FILE_LEDGER.md"),
         ]
         for target_name, candidate in static_candidates:
