@@ -10,16 +10,16 @@ requires-python = ">=3.11"
 license = {text = "Proprietary"}
 authors = [{name = "Gateway Information Group LLC"}]
 dependencies = [
-  "fastapi==0.128.2",
+  "fastapi==0.141.1",
   "uvicorn==0.48.0",
   "pydantic==2.13.4",
-  "python-multipart==0.0.29",
-  "pypdf==5.9.0",
+  "python-multipart==0.0.32",
+  "pypdf==6.16.2",
   "python-docx==1.2.0",
 ]
 
 [project.optional-dependencies]
-dev = ["pytest==9.0.2", "httpx==0.28.1"]
+dev = ["pytest==9.1.1", "httpx==0.28.1"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

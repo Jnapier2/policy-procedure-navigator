@@ -89,8 +89,8 @@
     {
       "type": "library",
       "name": "fastapi",
-      "version": "0.128.2",
-      "purl": "pkg:pypi/fastapi@0.128.2",
+      "version": "0.141.1",
+      "purl": "pkg:pypi/fastapi@0.141.1",
       "scope": "required",
       "licenses": [
         {
@@ -257,8 +257,8 @@
     {
       "type": "library",
       "name": "pypdf",
-      "version": "5.9.0",
-      "purl": "pkg:pypi/pypdf@5.9.0",
+      "version": "6.16.2",
+      "purl": "pkg:pypi/pypdf@6.16.2",
       "scope": "required",
       "licenses": [
         {
@@ -271,8 +271,8 @@
     {
       "type": "library",
       "name": "pytest",
-      "version": "9.0.2",
-      "purl": "pkg:pypi/pytest@9.0.2",
+      "version": "9.1.1",
+      "purl": "pkg:pypi/pytest@9.1.1",
       "scope": "optional",
       "licenses": [
         {
@@ -299,8 +299,8 @@
     {
       "type": "library",
       "name": "python-multipart",
-      "version": "0.0.29",
-      "purl": "pkg:pypi/python-multipart@0.0.29",
+      "version": "0.0.32",
+      "purl": "pkg:pypi/python-multipart@0.0.32",
       "scope": "required",
       "licenses": [
         {
@@ -313,8 +313,8 @@
     {
       "type": "library",
       "name": "starlette",
-      "version": "0.50.0",
-      "purl": "pkg:pypi/starlette@0.50.0",
+      "version": "1.6.0",
+      "purl": "pkg:pypi/starlette@1.6.0",
       "scope": "required",
       "licenses": [
         {
