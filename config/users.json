@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "users": [
+    {
+      "id": "ava.employee",
+      "display_name": "Ava Employee",
+      "role": "employee",
+      "department": "Operations",
+      "can_review": false,
+      "description": "General employee view. Can retrieve broadly available policies but not restricted security details."
+    },
+    {
+      "id": "marcus.procurement",
+      "display_name": "Marcus Procurement",
+      "role": "procurement",
+      "department": "Procurement",
+      "can_review": true,
+      "description": "Procurement analyst view with vendor and due-diligence access."
+    },
+    {
+      "id": "lena.legal",
+      "display_name": "Lena Legal",
+      "role": "legal",
+      "department": "Legal",
+      "can_review": true,
+      "description": "Legal reviewer view with contract and privacy policy access."
+    },
+    {
+      "id": "sam.security",
+      "display_name": "Sam Security",
+      "role": "security",
+      "department": "Information Security",
+      "can_review": true,
+      "description": "Security reviewer view for third-party technology and data controls."
+    },
+    {
+      "id": "admin.demo",
+      "display_name": "Demo Administrator",
+      "role": "admin",
+      "department": "Governance",
+      "can_review": true,
+      "description": "Portfolio demonstration administrator."
+    }
+  ]
+}

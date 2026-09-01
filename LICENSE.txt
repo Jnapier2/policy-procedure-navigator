@@ -1,0 +1,7 @@
+Policy and Procedure Navigator — First-Party License Notice
+
+Copyright © 2026 Gateway Information Group LLC. All rights reserved.
+
+The original application code, interface, sample policies, tests, and documentation in this package are proprietary first-party materials. They are provided for portfolio review, evaluation, and demonstration only. No license is granted to copy, modify, distribute, sublicense, sell, deploy, or create derivative works without prior written permission from Gateway Information Group LLC.
+
+Third-party packages are not covered by this notice. Their respective licenses, copyrights, package names, and versions are identified in THIRD_PARTY_NOTICES.md and SBOM.json. Those upstream terms control the third-party components.

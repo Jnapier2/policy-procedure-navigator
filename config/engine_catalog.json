@@ -1,0 +1,14 @@
+{
+  "schema_version": "2.0",
+  "mode": "keyless-local-demo",
+  "engines": {
+    "local-governed-evidence": {
+      "provider": "local",
+      "network_required": false,
+      "credentials_required": false,
+      "input_usd_per_million": 0,
+      "output_usd_per_million": 0,
+      "description": "Deterministic evidence-grounded answer synthesis used by the portfolio demonstration."
+    }
+  }
+}

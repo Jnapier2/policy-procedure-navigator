@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "canonical_project": "Professional Portfolio — Governed AI Knowledge & Workflow Assistant",
+  "display_name": "Policy and Procedure Navigator",
+  "core_descriptor": "Evidence-grounded policy answers with permission-aware retrieval and controlled workflows",
+  "execution_namespace": "governed_knowledge_assistant",
+  "canonical_entrypoint": "PolicyNavigator.bat",
+  "version": "0.3.2",
+  "build_id": "PP-GKWA-0.3.2-B20260831-EXPORTENTRY1",
+  "release_date": "2026-08-31",
+  "publisher": "Gateway Information Group LLC",
+  "copyright": "Copyright © 2026 Gateway Information Group LLC. All rights reserved.",
+  "distribution_scope": "portfolio demonstration / trusted local use",
+  "sensitivity": "sample data only",
+  "aliases": [
+    "Governed Knowledge & Workflow Assistant",
+    "Policy and Procedure Navigator"
+  ],
+  "known_good_baseline": {
+    "version": "0.1.2",
+    "build_id": "PP-GKWA-0.1.2-B20260828-02",
+    "artifact_sha256": "ace1d77085506b018ad4db82bd8aff3faf987cc45c88f4a1e486c2ab8d79df73",
+    "status": "rollback source with Windows support evidence; full Norton/start promotion gate not recorded"
+  },
+  "source_parameter_baseline": "Gateway shared project defaults v2.17.13",
+  "notes": "v2.17.13-aligned keyless recruiter-demo maintenance release: preserves v0.3.1 UI recovery and adds one explicit root EXPORT_SUPPORT.bat convenience entrypoint that forwards only to the governed export action; export logic remains centralized in scripts/export20.py.",
+  "package_id": "gateway.professional-portfolio.governed-knowledge-workflow-assistant",
+  "source_parameter_sha256": "63bda0b5f61ba44f18f55c5b75512085ed3a2fe67c575e3406a5877ecd5f4566",
+  "launcher_registry": {
+    "canonical_entrypoint": "PolicyNavigator.bat",
+    "approved_aliases": [],
+    "retired_entrypoints": [
+      "DOCTOR.bat",
+      "RUN_EVALUATIONS.bat"
+    ],
+    "dispatcher_backend": "scripts/windows_launcher.py",
+    "actions": {
+      "start": {
+        "route": "start",
+        "backend": "scripts/run_server.py",
+        "risk": "local-read-write"
+      },
+      "doctor": {
+        "route": "doctor",
+        "backend": "scripts/doctor.py",
+        "risk": "read-only-plus-local-bootstrap"
+      },
+      "evaluations": {
+        "route": "evaluations",
+        "backend": "scripts/run_evaluations.py",
+        "risk": "local-evaluation-write"
+      },
+      "export": {
+        "route": "export",
+        "backend": "scripts/export20.py",
+        "risk": "local-diagnostic-write"
+      }
+    },
+    "action_entrypoints": {
+      "EXPORT_SUPPORT.bat": "export"
+    }
+  },
+  "output_roots": [
+    "local",
+    "state",
+    "logs",
+    "temp",
+    "exports",
+    "diagnostics",
+    "reports",
+    "downloads",
+    "backups"
+  ],
+  "previous_candidate": {
+    "version": "0.3.1",
+    "build_id": "PP-GKWA-0.3.1-B20260831-UIRECOVERY1",
+    "artifact_sha256": "9f560bdce55d3a5119bbb3b0fc6226b27a23802cc56b4ec49052fd82bc1f9560",
+    "status": "exact-package-verified UI recovery candidate; current upload/sidecar CRC and baseline regression were revalidated before branching v0.3.2."
+  }
+}

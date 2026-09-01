@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "workflows": [
+    {
+      "id": "vendor_onboarding",
+      "display_name": "New Vendor Approval",
+      "risk_level": "high",
+      "assigned_role": "procurement",
+      "review_required": true,
+      "triggers": ["new vendor", "engage a vendor", "engaging a vendor", "supplier approval", "vendor approvals", "vendor onboarding"],
+      "steps": [
+        {
+          "id": "business-need",
+          "title": "Document the business need and accountable sponsor",
+          "condition": "always",
+          "evidence_terms": ["business need", "business sponsor", "accountable sponsor"]
+        },
+        {
+          "id": "procurement-intake",
+          "title": "Submit the procurement intake before commitment",
+          "condition": "always",
+          "evidence_terms": ["procurement intake", "procurement approval", "before committing"]
+        },
+        {
+          "id": "due-diligence",
+          "title": "Complete vendor due diligence and risk screening",
+          "condition": "always",
+          "evidence_terms": ["due diligence", "risk screening", "sanctions"]
+        },
+        {
+          "id": "security-review",
+          "title": "Obtain Information Security review when systems, credentials, or company data are involved",
+          "condition": "conditional",
+          "evidence_terms": ["information security review", "system access", "company data", "credentials"]
+        },
+        {
+          "id": "privacy-legal",
+          "title": "Obtain Privacy and Legal review for personal data or non-standard terms",
+          "condition": "conditional",
+          "evidence_terms": ["personal data", "privacy review", "legal review", "non-standard terms"]
+        },
+        {
+          "id": "finance-approval",
+          "title": "Obtain Finance approval for threshold or unbudgeted spend",
+          "condition": "conditional",
+          "evidence_terms": ["finance approval", "$25,000", "unbudgeted"]
+        },
+        {
+          "id": "contract-po",
+          "title": "Secure an authorized signature and purchase order before work begins",
+          "condition": "always",
+          "evidence_terms": ["authorized signatory", "purchase order", "before work begins", "signed agreement"]
+        },
+        {
+          "id": "human-review",
+          "title": "Route the completed checklist to Procurement for human review",
+          "condition": "always",
+          "evidence_terms": ["procurement approval", "review"]
+        }
+      ]
+    }
+  ]
+}

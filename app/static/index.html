@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Evidence-grounded policy answers with permission-aware retrieval and controlled workflows.">
+  <title>Policy and Procedure Navigator</title>
+  <link rel="stylesheet" href="/assets/styles.css?v=0.3.2">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Primary navigation">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">PN</div>
+        <div>
+          <strong>Policy Navigator</strong>
+          <span>Governed knowledge</span>
+        </div>
+      </div>
+
+      <nav class="nav-list">
+        <button class="nav-item active" data-view="ask" type="button"><span aria-hidden="true">⌕</span> Ask</button>
+        <button class="nav-item" data-view="documents" type="button"><span aria-hidden="true">▤</span> Documents</button>
+        <button class="nav-item" data-view="reviews" type="button"><span aria-hidden="true">✓</span> Review queue</button>
+        <button class="nav-item" data-view="evaluations" type="button"><span aria-hidden="true">◎</span> Evaluations</button>
+        <button class="nav-item" data-view="audit" type="button"><span aria-hidden="true">⛓</span> Audit log</button>
+      </nav>
+
+      <div class="sidebar-card">
+        <span class="eyebrow">Governance posture</span>
+        <div class="posture-row"><span class="status-dot" id="integrityDot"></span><strong id="integrityText">Checking release…</strong></div>
+        <small id="providerMode">Keyless local mode loading</small>
+      </div>
+
+      <div class="copyright">© 2026 Gateway Information Group LLC</div>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Professional Portfolio</p>
+          <h1 id="pageTitle">Policy and Procedure Navigator</h1>
+        </div>
+        <div class="topbar-actions">
+          <label class="user-picker">
+            <span>Viewing as</span>
+            <select id="userSelect" aria-label="Select demonstration user"></select>
+          </label>
+          <button class="secondary-button hidden" id="resetDemoButton" type="button" title="Restore the bundled fictional demo state">Reset demo</button>
+          <a class="icon-button" href="/api/docs" target="_blank" rel="noreferrer" aria-label="Open API documentation" title="Open API documentation">API</a>
+        </div>
+      </header>
+
+      <section class="view active" id="view-ask" aria-labelledby="askHeading">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <div class="badge">Evidence first · Action controlled</div>
+            <h2 id="askHeading">Ask the policy. See the proof. Control the action.</h2>
+            <p>Answers are limited to permitted documents, ranked by authority, checked for stale or conflicting guidance, and paired with a human-review workflow when the stakes are consequential.</p>
+          </div>
+          <div class="metric-strip" id="metricStrip">
+            <div><strong id="metricDocuments">—</strong><span>Documents</span></div>
+            <div><strong id="metricQueries">—</strong><span>Questions</span></div>
+            <div><strong id="metricReviews">—</strong><span>Pending reviews</span></div>
+            <div><strong id="metricEval">—</strong><span>Eval score</span></div>
+          </div>
+        </div>
+
+        <section class="panel demo-guide" id="demoGuide" aria-labelledby="demoGuideTitle">
+          <div class="demo-guide-head">
+            <div><span class="eyebrow">Recruiter quick tour</span><h3 id="demoGuideTitle">See the core value in about 3 minutes</h3></div>
+            <div class="demo-proof-chips" id="demoProofChips">
+              <span class="mini-pill">Keyless</span><span class="mini-pill">Local only</span><span class="mini-pill">Fictional data</span>
+            </div>
+          </div>
+          <div class="demo-step-grid" id="demoStepGrid">
+            <button class="demo-step" type="button" data-demo-step="vendor-approval"><span>1</span><strong>Grounded answer</strong><small>See citations and an approval checklist.</small></button>
+            <button class="demo-step" type="button" data-demo-step="permission-boundary"><span>2</span><strong>Permission boundary</strong><small>Watch an employee view abstain.</small></button>
+            <button class="demo-step" type="button" data-demo-step="authorized-security"><span>3</span><strong>Authorized view</strong><small>Switch to Security and reveal permitted evidence.</small></button>
+            <button class="demo-step" type="button" data-demo-step="evaluation-proof"><span>4</span><strong>Reliability proof</strong><small>Run the bundled golden evaluation suite.</small></button>
+          </div>
+        </section>
+
+        <div class="ask-layout">
+          <div class="panel ask-panel">
+            <form id="askForm">
+              <label for="questionInput">Ask a policy or procedure question</label>
+              <textarea id="questionInput" rows="5" maxlength="4000" placeholder="What approvals are required before engaging a new vendor?" required></textarea>
+              <div class="suggestions" aria-label="Suggested questions">
+                <button type="button" data-question="What approvals are required before engaging a new vendor?">Vendor approvals</button>
+                <button type="button" data-question="What security evidence may be required before a software vendor is approved?">Security evidence</button>
+                <button type="button" data-question="What is the exact daily parking reimbursement limit while traveling?">Test abstention</button>
+              </div>
+              <div class="form-footer">
+                <span class="privacy-note">Common PII is redacted before retrieval and audit storage. No external service is used.</span>
+                <button class="primary-button" id="askButton" type="submit">Find governed answer</button>
+              </div>
+            </form>
+          </div>
+
+          <aside class="panel explainer-panel">
+            <span class="eyebrow">What happens behind the answer</span>
+            <ol class="process-list">
+              <li><span>1</span><div><strong>Authorize</strong><small>Apply the selected user’s role before retrieval.</small></div></li>
+              <li><span>2</span><div><strong>Retrieve</strong><small>Search only permitted policy sections.</small></div></li>
+              <li><span>3</span><div><strong>Verify</strong><small>Check authority, expiration, conflict, and coverage.</small></div></li>
+              <li><span>4</span><div><strong>Control</strong><small>Require human review before consequential action.</small></div></li>
+            </ol>
+          </aside>
+        </div>
+
+        <div class="result-wrap hidden" id="resultWrap" aria-live="polite">
+          <div class="result-header">
+            <div>
+              <span class="eyebrow">Governed response</span>
+              <h3>Answer and evidence</h3>
+            </div>
+            <div class="confidence-block">
+              <div class="confidence-ring" id="confidenceRing"><span id="confidenceValue">0%</span></div>
+              <div><strong id="confidenceLabel">Low confidence</strong><small id="confidenceReason">Waiting for evidence</small></div>
+            </div>
+          </div>
+
+          <div class="result-grid">
+            <article class="panel answer-card">
+              <div class="answer-toolbar">
+                <span class="provider-pill" id="providerPill">Local evidence</span>
+                <span id="latencyText">— ms</span>
+                <span id="costText">$0 API cost</span>
+              </div>
+              <div class="answer-body" id="answerBody"></div>
+              <div class="notice hidden" id="fallbackNotice"></div>
+              <div class="warning-list" id="authorityWarnings"></div>
+              <div class="feedback-row" id="feedbackRow">
+                <span>Was this grounded and useful?</span>
+                <button type="button" data-rating="1" aria-label="Helpful answer">Helpful</button>
+                <button type="button" data-rating="-1" aria-label="Needs correction">Needs correction</button>
+              </div>
+              <div class="correction-panel hidden" id="correctionPanel">
+                <label for="correctionInput">Correction or missing evidence</label>
+                <textarea id="correctionInput" rows="3" maxlength="2000" placeholder="Describe what should be reviewed. Common PII is redacted before storage."></textarea>
+                <div class="correction-actions">
+                  <button class="secondary-button" id="cancelCorrection" type="button">Cancel</button>
+                  <button class="primary-button" id="submitCorrection" type="button">Submit correction</button>
+                </div>
+              </div>
+            </article>
+
+            <aside class="panel evidence-card">
+              <div class="section-heading">
+                <div><span class="eyebrow">Citations</span><h3>Permitted sources</h3></div>
+                <span class="count-badge" id="citationCount">0</span>
+              </div>
+              <div id="citationList" class="citation-list"></div>
+            </aside>
+          </div>
+
+          <section class="panel checklist-card hidden" id="checklistCard">
+            <div class="section-heading">
+              <div><span class="eyebrow">Controlled workflow</span><h3 id="workflowTitle">Approval checklist</h3></div>
+              <button class="primary-button" id="createReviewButton" type="button">Create tracked review</button>
+            </div>
+            <p class="section-description">Checklist items are generated from governed evidence. They remain unapproved until a human reviewer records a decision.</p>
+            <div id="checklistList" class="checklist-list"></div>
+          </section>
+        </div>
+      </section>
+
+      <section class="view" id="view-documents" aria-labelledby="documentsHeading">
+        <div class="page-intro">
+          <div><p class="eyebrow">Knowledge governance</p><h2 id="documentsHeading">Document library</h2><p>Current, draft, expired, confidential, and restricted records are indexed with explicit authority and access metadata.</p></div>
+          <button class="secondary-button" id="refreshDocuments" type="button">Refresh</button>
+        </div>
+
+        <div class="panel upload-panel" id="uploadPanel">
+          <div class="section-heading"><div><span class="eyebrow">Administrator</span><h3>Ingest a document</h3></div><span class="count-badge">MD · TXT · PDF · DOCX</span></div>
+          <form id="uploadForm" class="upload-grid">
+            <label class="file-drop"><input id="documentFile" name="file" type="file" accept=".md,.txt,.pdf,.docx" required><span>Choose a governed document</span><small>15 MB demonstration limit</small></label>
+            <label>Title<input name="title" type="text" placeholder="Optional; inferred when blank"></label>
+            <label>Policy family<input name="policy_family" type="text" placeholder="vendor-management"></label>
+            <label>Department<input name="department" type="text" placeholder="Procurement"></label>
+            <label>Classification<select name="classification"><option>internal</option><option>confidential</option><option>restricted</option><option>public</option></select></label>
+            <label>Status<select name="status"><option>active</option><option>draft</option><option>expired</option><option>superseded</option></select></label>
+            <label>Version<input name="version" type="text" value="1.0"></label>
+            <label>Authority rank<input name="authority_rank" type="number" min="0" max="100" value="50"></label>
+            <label class="wide">Allowed roles<input name="allowed_roles" type="text" value="employee,procurement,legal,security,admin"></label>
+            <div class="wide form-footer"><span id="uploadStatus" class="privacy-note">PII redaction is enabled before indexing.</span><button class="primary-button" type="submit">Ingest and index</button></div>
+          </form>
+        </div>
+
+        <div class="panel table-panel">
+          <div class="table-scroll">
+            <table>
+              <thead><tr><th>Document</th><th>Authority</th><th>Department</th><th>Classification</th><th>Effective</th><th>Access</th></tr></thead>
+              <tbody id="documentsTable"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="view" id="view-reviews" aria-labelledby="reviewsHeading">
+        <div class="page-intro">
+          <div><p class="eyebrow">Human in the loop</p><h2 id="reviewsHeading">Review queue</h2><p>Consequential recommendations become tracked cases instead of silent automated actions.</p></div>
+          <button class="secondary-button" id="refreshReviews" type="button">Refresh</button>
+        </div>
+        <div id="reviewsList" class="review-grid"></div>
+      </section>
+
+      <section class="view" id="view-evaluations" aria-labelledby="evaluationsHeading">
+        <div class="page-intro">
+          <div><p class="eyebrow">Reliability engineering</p><h2 id="evaluationsHeading">Evaluation suite</h2><p>Golden questions test answer coverage, valid abstention, citation count, permission leakage, workflow routing, authority warnings, and PII redaction.</p></div>
+          <button class="primary-button" id="runEvaluations" type="button">Run deterministic suite</button>
+        </div>
+        <div class="eval-summary-grid" id="evalSummary">
+          <div class="panel stat-card"><span>Suite score</span><strong id="evalScore">Not run</strong></div>
+          <div class="panel stat-card"><span>Passed cases</span><strong id="evalPassed">—</strong></div>
+          <div class="panel stat-card"><span>Suite version</span><strong id="evalVersion">—</strong></div>
+        </div>
+        <section class="panel benchmark-card">
+          <div class="section-heading">
+            <div><span class="eyebrow">Local performance</span><h3>Deterministic benchmark</h3></div>
+            <button class="secondary-button" id="runBenchmark" type="button">Run local benchmark</button>
+          </div>
+          <p class="section-description">Measures the real governed answer path on this computer. No network calls, credentials, or persisted benchmark questions.</p>
+          <div class="benchmark-grid">
+            <div><span>Warm p50</span><strong id="benchmarkP50">—</strong></div>
+            <div><span>Warm p95</span><strong id="benchmarkP95">—</strong></div>
+            <div><span>Cache hit rate</span><strong id="benchmarkCache">—</strong></div>
+            <div><span>Budget status</span><strong id="benchmarkStatus">Not run</strong></div>
+          </div>
+        </section>
+        <div class="panel table-panel"><div class="table-scroll"><table><thead><tr><th>Case</th><th>Result</th><th>Confidence</th><th>Citations</th><th>Checks</th></tr></thead><tbody id="evalTable"></tbody></table></div></div>
+      </section>
+
+      <section class="view" id="view-audit" aria-labelledby="auditHeading">
+        <div class="page-intro">
+          <div><p class="eyebrow">Traceability</p><h2 id="auditHeading">Tamper-evident audit log</h2><p>Each event is linked to the prior event hash, making post-hoc changes detectable.</p></div>
+          <div class="audit-actions"><span class="chain-badge" id="chainBadge">Checking chain…</span><button class="secondary-button" id="refreshAudit" type="button">Refresh</button></div>
+        </div>
+        <div class="panel timeline" id="auditTimeline"></div>
+      </section>
+    </main>
+  </div>
+
+  <div class="toast hidden" id="toast" role="status"></div>
+  <script src="/assets/app.js?v=0.3.2" defer></script>
+</body>
+</html>

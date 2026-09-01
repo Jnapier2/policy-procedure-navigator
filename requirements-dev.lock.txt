@@ -1,0 +1,9 @@
+-r requirements.lock.txt
+iniconfig==2.3.0
+packaging==25.0
+pluggy==1.6.0
+pygments==2.20.0
+pytest==9.0.2
+certifi==2026.5.20
+httpcore==1.0.9
+httpx==0.28.1

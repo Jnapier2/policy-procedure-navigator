@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "title": "3-minute recruiter demo",
+  "description": "Four quick scenarios demonstrate grounded answers, permission boundaries, human review, and measurable reliability without external services or credentials.",
+  "steps": [
+    {
+      "id": "vendor-approval",
+      "number": 1,
+      "title": "Grounded approval workflow",
+      "user_id": "ava.employee",
+      "question": "What approvals are required before engaging a new vendor?",
+      "expected": "Cited policy evidence plus a controlled approval checklist."
+    },
+    {
+      "id": "permission-boundary",
+      "number": 2,
+      "title": "Permission-aware abstention",
+      "user_id": "ava.employee",
+      "question": "What penetration testing evidence must a software vendor provide?",
+      "expected": "The employee view should refuse to reveal restricted Security evidence."
+    },
+    {
+      "id": "authorized-security",
+      "number": 3,
+      "title": "Authorized evidence view",
+      "user_id": "sam.security",
+      "question": "What penetration testing evidence must a software vendor provide?",
+      "expected": "The Security role should receive the permitted restricted source."
+    },
+    {
+      "id": "evaluation-proof",
+      "number": 4,
+      "title": "Reliability proof",
+      "user_id": "admin.demo",
+      "action": "evaluations",
+      "expected": "Run the deterministic golden suite and inspect traceable checks."
+    }
+  ]
+}
