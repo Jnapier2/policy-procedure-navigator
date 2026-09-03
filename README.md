@@ -10,7 +10,7 @@ Version **0.3.2** · build `PP-GKWA-0.3.2-B20260831-EXPORTENTRY1`
 
 ## Three-minute walkthrough
 
-Double-click `PolicyNavigator.bat`. The home screen includes a four-step **3-minute recruiter tour**:
+Double-click `PolicyNavigator.bat`. The home screen includes a four-step **3-minute guided tour**:
 
 1. **Grounded answer** — ask what approvals are required before engaging a vendor and see citations plus a controlled checklist.
 2. **Permission boundary** — ask an employee for restricted penetration-testing details and watch the application abstain without leaking the restricted source.
@@ -114,7 +114,7 @@ The launcher derives the project root from its own location, not from the curren
 
 ## Production boundary
 
-This is intentionally a trusted-local portfolio demonstration. Production deployment would require real identity/SSO, tenant isolation, managed persistence, formal records controls, malware/content scanning, enterprise deployment monitoring, API authentication/rate limits, and operational support controls. Those are deliberately not bundled into the recruiter demo because they would add setup friction without improving the local walkthrough.
+This is intentionally a trusted-local portfolio demonstration. Production deployment would require real identity/SSO, tenant isolation, managed persistence, formal records controls, malware/content scanning, enterprise deployment monitoring, API authentication/rate limits, and operational support controls. Those are deliberately not bundled into the guided local demonstration because they would add setup friction without improving the local walkthrough.
 
 See `QUICK_START.md`, `ARCHITECTURE.md`, `SECURITY_AND_LIMITATIONS.md`, `VERIFICATION_REPORT.md`, and `FILE_LEDGER.md` for implementation and verification detail.
 
