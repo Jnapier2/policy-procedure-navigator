@@ -1,5 +1,7 @@
 # Verification Report — Policy and Procedure Navigator 0.3.2
 
+**Historical pre-publication qualification record.** The test and distribution counts below describe the original source-freeze and archive review, not the current public checkout or a new test run. Current managed-file identity is recorded in [MANIFEST.json](MANIFEST.json); current source checks are available in [repository workflows](https://github.com/Jnapier2/policy-procedure-navigator/actions). Environment-dependent skips must be read from the specific test result.
+
 **Canonical project:** Professional Portfolio — Governed AI Knowledge & Workflow Assistant  
 **Build:** `PP-GKWA-0.3.2-B20260831-EXPORTENTRY1`  
 **Operating baseline:** Gateway shared defaults v2.17.13  

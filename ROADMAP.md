@@ -1,24 +1,19 @@
-# Roadmap — Policy and Procedure Navigator
+# Policy and Procedure Navigator — Capabilities and Evaluation Limits
 
-## Optional portfolio polish — not release blockers
+The current local demonstration provides permission-aware retrieval, document and section citations, document-status checks, explicit abstention, and human-review workflows using fictional policies and users.
 
-1. Add a polished recorded walkthrough/GIF using only the bundled fictional data.
-2. Add a policy-version comparison/change-impact view when there is enough demo content to make the comparison meaningful.
-3. Add a correction-adjudication screen that lets the Demo Administrator approve or close submitted corrections without bypassing source evidence.
-4. Add a larger deterministic synthetic-corpus benchmark only if current local benchmark measurements show a scale story worth demonstrating.
-5. Add keyset/cursor pagination when list/history sizes in the demo justify it.
+## What can be evaluated
 
-## Production extensions — intentionally deferred
+- Trace answers to the permitted source evidence.
+- Compare current, draft, expired, and role-restricted documents.
+- Review unresolved questions and proposed follow-up.
+- Run deterministic evaluations and the local performance benchmark.
+- Inspect documented privacy, integrity, and recovery controls.
 
-- OIDC/SAML identity and directory-backed groups.
-- Tenant-aware authorization and managed persistence.
-- Formal retention, legal hold, deletion, and records export controls.
-- API credentials, rate limits, idempotency keys, and signed webhooks.
-- Distributed tracing/alerting and production capacity budgets.
-- Managed hybrid/vector retrieval after measured corpus scale justifies the additional service boundary.
+## Evaluation boundary
 
-## Design rule
+This is a trusted-local demonstration. It does not establish enterprise identity, tenant isolation, managed production persistence, formal records retention, external integration reliability, or production capacity.
 
-Keep the downloadable portfolio package one-click, local, keyless, fictional-data-only, and easy to explain. Add infrastructure only when it improves the demonstration rather than merely making the architecture larger.
+See [the walkthrough](README.md) and [security and limitations](SECURITY_AND_LIMITATIONS.md) for the current product and safety boundaries.
 
 Copyright © 2026 Gateway Information Group LLC. All rights reserved.

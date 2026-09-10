@@ -6,6 +6,8 @@ The dependency set includes software distributed under MIT, BSD-2-Clause, BSD-3-
 
 Before public redistribution, include the complete upstream license texts required by each package and re-run dependency and vulnerability review against the exact release artifact. No third-party source code is intentionally copied into this repository.
 
+Colorama 0.4.6 supplies cross-platform terminal support required by Click on Windows. Its BSD-3-Clause license and exact package identity are recorded in the SBOM; it is pinned unconditionally so the same plain-version lock can be validated on each supported platform.
+
 The first-party license notice is in `LICENSE.txt`.
 
 First-party application code and original documentation: Copyright © 2026 Gateway Information Group LLC. All rights reserved.
