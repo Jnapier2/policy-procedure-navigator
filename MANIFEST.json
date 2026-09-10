@@ -3,7 +3,7 @@
   "package_id": "gateway.professional-portfolio.governed-knowledge-workflow-assistant",
   "version": "0.3.2",
   "build_id": "PP-GKWA-0.3.2-B20260831-EXPORTENTRY1",
-  "generated_at": "2026-09-01T07:59:17+00:00",
+  "generated_at": "2026-09-10T01:40:54+00:00",
   "hash_algorithm": "SHA-256",
   "managed_file_count": 83,
   "managed_files": [
@@ -224,8 +224,8 @@
     },
     {
       "path": "FILE_LEDGER.md",
-      "size_bytes": 17004,
-      "sha256": "c160475fb3b9d2e4bf4720a4a1e166dac1b32f431144707d0176511f821afc50"
+      "size_bytes": 2044,
+      "sha256": "f5aefcc56a586b0ac01fec3125ba38225a81b3054168e8af2b1d679a33e8d159"
     },
     {
       "path": "KNOWN_GOOD_STATE.md",
@@ -284,18 +284,18 @@
     },
     {
       "path": "requirements.lock.txt",
-      "size_bytes": 304,
-      "sha256": "f0b6630a6e1d4bfa1bbff2634cfccf107aa44ddfff12ebe731284dd8114f86e2"
+      "size_bytes": 320,
+      "sha256": "d11183c9421d2a3ddab542182ecf25360caf42ed54af1def8baecdca4f208281"
     },
     {
       "path": "ROADMAP.md",
-      "size_bytes": 1451,
-      "sha256": "82cc6ae2fc72e2e5c9d5aef17999adb47d0eddf96e9f20ebf7853dac6c494090"
+      "size_bytes": 1065,
+      "sha256": "d7744f17aa0ebe2b34856863b0e29fb21cb731255ce38901109b9c2f0e14c638"
     },
     {
       "path": "SBOM.json",
-      "size_bytes": 7539,
-      "sha256": "b2a021f4bc7149ac438eed6c3c45e841f98ee46bb49928cdc14d1df8894c3bd4"
+      "size_bytes": 7813,
+      "sha256": "e5d782bb0f39c77cf700c96e3b80cf7af1aa1d75e1f04e06109b77e6e2d94d2f"
     },
     {
       "path": "scripts/__init__.py",
@@ -409,13 +409,13 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "size_bytes": 993,
-      "sha256": "e4a582952157aef1f8b4f98fa7f72d32ed6ec2cea1e684e6db4e14e9bb164ba4"
+      "size_bytes": 1263,
+      "sha256": "a06885f002eaf8579d58fa607290d9f438f35cb80252adc116743170836b9aae"
     },
     {
       "path": "VERIFICATION_REPORT.md",
-      "size_bytes": 4338,
-      "sha256": "885ef27071848c15d6006e236179a2daa95336e32635a94ebbcc374a54a9704c"
+      "size_bytes": 4814,
+      "sha256": "4148d62fa03a1eeffcbf8ee3af1f3299bcd9466ba195322a250b39e09b2da1b0"
     },
     {
       "path": "VERSION.txt",
