@@ -47,8 +47,8 @@
     {
       "type": "library",
       "name": "anyio",
-      "version": "4.13.0",
-      "purl": "pkg:pypi/anyio@4.13.0",
+      "version": "4.14.2",
+      "purl": "pkg:pypi/anyio@4.14.2",
       "scope": "required",
       "licenses": [
         {
