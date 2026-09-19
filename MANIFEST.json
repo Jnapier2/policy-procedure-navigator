@@ -3,7 +3,7 @@
   "package_id": "gateway.professional-portfolio.governed-knowledge-workflow-assistant",
   "version": "0.3.2",
   "build_id": "PP-GKWA-0.3.2-B20260831-EXPORTENTRY1",
-  "generated_at": "2026-09-19T23:33:13+00:00",
+  "generated_at": "2026-09-19T23:36:17+00:00",
   "hash_algorithm": "SHA-256",
   "managed_file_count": 83,
   "managed_files": [
@@ -294,8 +294,8 @@
     },
     {
       "path": "SBOM.json",
-      "size_bytes": 7815,
-      "sha256": "c8257819d0e332d32ff3b84c329032a9755cc2d6e530c3a687af13ffeec6eff9"
+      "size_bytes": 7813,
+      "sha256": "2280370756dc249916cacdeafba3e800d78d2532bdc262708381c59163d9b6a4"
     },
     {
       "path": "scripts/__init__.py",
