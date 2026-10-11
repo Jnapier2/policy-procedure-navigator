@@ -4,7 +4,7 @@
   "serialNumber": "urn:uuid:68b73846-c6e4-5450-a04b-0cab302aa30c",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-08-31T23:40:00Z",
+    "timestamp": "2026-10-11T05:31:52+00:00",
     "component": {
       "type": "application",
       "name": "Policy and Procedure Navigator",
@@ -271,14 +271,26 @@
     {
       "type": "library",
       "name": "pypdf",
-      "version": "6.16.2",
-      "purl": "pkg:pypi/pypdf@6.16.2",
+      "version": "6.20.0",
+      "purl": "pkg:pypi/pypdf@6.20.0",
       "scope": "required",
       "licenses": [
         {
           "license": {
             "id": "BSD-3-Clause"
           }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f003fc2014814d264fe7dd3f9d435c158e23e1a85a2233f87a0a2d6d21c914ad"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://files.pythonhosted.org/packages/18/42/a945f65cc61c739ec80f4112c4b78ed1791f25d33f45f19389c9c9e247e2/pypdf-6.20.0-py3-none-any.whl"
         }
       ]
     },

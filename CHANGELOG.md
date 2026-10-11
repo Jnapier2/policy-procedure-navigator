@@ -1,5 +1,11 @@
 # Changelog
 
+## Source dependency maintenance — 2026-10-11
+
+- Updated the PDF reader from pypdf 6.16.2 to 6.20.0 to address reported resource-exhaustion vulnerabilities.
+- Kept the application version, demonstration workflows and other dependency pins unchanged; refreshed the component record and source integrity manifest.
+- Existing downloadable packages remain dated artifacts; this maintenance change applies to the current repository source.
+
 ## 0.3.2 — 2026-08-31
 
 - Added explicit `EXPORT_SUPPORT.bat` action entrypoint by user request.

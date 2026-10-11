@@ -3,9 +3,9 @@
   "package_id": "gateway.professional-portfolio.governed-knowledge-workflow-assistant",
   "version": "0.3.2",
   "build_id": "PP-GKWA-0.3.2-B20260831-EXPORTENTRY1",
-  "generated_at": "2026-09-19T23:36:17+00:00",
+  "generated_at": "2026-10-11T05:31:54+00:00",
   "hash_algorithm": "SHA-256",
-  "managed_file_count": 83,
+  "managed_file_count": 84,
   "managed_files": [
     {
       "path": ".env.example",
@@ -144,8 +144,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "size_bytes": 12335,
-      "sha256": "6cd9858cc459a76fe0eb3478deba477cc3941c7408bd8abe460c98cbf3178a3c"
+      "size_bytes": 12773,
+      "sha256": "baed14ecbc48be8640b850e5ebdb962c30f7a6ff0064721904d9fd1f9a3eca5b"
     },
     {
       "path": "config/answer_policy.json",
@@ -255,7 +255,7 @@
     {
       "path": "pyproject.toml",
       "size_bytes": 686,
-      "sha256": "eafbb54957512b6ae734b50abc2cc5094c8aee9d38902bd6e1acb12838dabcb6"
+      "sha256": "14372a4d772830ea056cec7fc8293356da4fdf40dccec6dc4618a5f3587588b6"
     },
     {
       "path": "QUICK_START.md",
@@ -285,7 +285,7 @@
     {
       "path": "requirements.lock.txt",
       "size_bytes": 320,
-      "sha256": "20ec16dfcd45966be7f982120a8948a38cd5dafd5e142eb6b063eaa33bcdb0ea"
+      "sha256": "c07143f2d8923b2f33b5c3636a95c4d4cc0510ac6c5cd00f84234b00ff7193cb"
     },
     {
       "path": "ROADMAP.md",
@@ -294,8 +294,8 @@
     },
     {
       "path": "SBOM.json",
-      "size_bytes": 7813,
-      "sha256": "2280370756dc249916cacdeafba3e800d78d2532bdc262708381c59163d9b6a4"
+      "size_bytes": 8230,
+      "sha256": "05ddf674ae0c018584b05d22b4020e995a358fe2fb7b464b107e6bb7d2932fbd"
     },
     {
       "path": "scripts/__init__.py",
@@ -391,6 +391,11 @@
       "path": "tests/test_local_config.py",
       "size_bytes": 2695,
       "sha256": "bcd364ffface6b955ac44c5f0f130cda81547d3e6ad282c698a1cfc9fe0c5238"
+    },
+    {
+      "path": "tests/test_pdf_reader_security.py",
+      "size_bytes": 1978,
+      "sha256": "23c6b355cd4bebc5ece2ffa641ca795a190f2c27c4c5fe749a6d9882acd75c0a"
     },
     {
       "path": "tests/test_privacy_and_workflow.py",
