@@ -1,0 +1,67 @@
+{
+  "version": "0.4.1",
+  "date": "2026-11-14",
+  "data": "fictional policy documents and demo roles",
+  "vendor": {
+    "question": "What approvals are required before engaging a new vendor?",
+    "status": "answered",
+    "citations": [
+      {
+        "title": "Vendor Management Policy",
+        "version": "3.2",
+        "section": "Required approvals before engagement"
+      },
+      {
+        "title": "Procurement Intake and Due-Diligence Procedure",
+        "version": "5.0",
+        "section": "Approval record"
+      },
+      {
+        "title": "Vendor Management Policy",
+        "version": "3.2",
+        "section": "Contracting and purchasing gate"
+      },
+      {
+        "title": "Vendor Management Policy",
+        "version": "3.2",
+        "section": "Exceptions"
+      },
+      {
+        "title": "Emergency Purchasing Exception Procedure",
+        "version": "1.4",
+        "section": "Minimum approvals"
+      }
+    ]
+  },
+  "role_comparison": {
+    "question": "What penetration testing evidence must a software vendor provide?",
+    "employee": "withheld",
+    "security": "answered",
+    "citations": [
+      {
+        "title": "Third-Party Information Security Standard",
+        "version": "2.1",
+        "section": "Evidence requirements"
+      },
+      {
+        "title": "Vendor Management Policy",
+        "version": "3.2",
+        "section": "Required approvals before engagement"
+      },
+      {
+        "title": "Third-Party Information Security Standard",
+        "version": "2.1",
+        "section": "Review trigger"
+      }
+    ]
+  },
+  "export": {
+    "employee_status": 403,
+    "administrator_status": 200,
+    "entries": 18,
+    "entry_limit": 20,
+    "checksum_match": true,
+    "synthetic_log_contact_redacted": true,
+    "standalone_partial_entries": 3
+  }
+}
