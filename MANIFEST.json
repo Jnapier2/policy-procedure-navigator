@@ -3,7 +3,7 @@
   "package_id": "gateway.professional-portfolio.governed-knowledge-workflow-assistant",
   "version": "0.3.2",
   "build_id": "PP-GKWA-0.3.2-B20260831-EXPORTENTRY1",
-  "generated_at": "2026-10-11T05:31:54+00:00",
+  "generated_at": "2026-11-16T07:33:09+00:00",
   "hash_algorithm": "SHA-256",
   "managed_file_count": 84,
   "managed_files": [
@@ -264,8 +264,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 6474,
-      "sha256": "6b5d5a0140bcac38ea6a63ed407b0b91168632522847b2e66a35b9d88741e41e"
+      "size_bytes": 6793,
+      "sha256": "9b7ba899c7f692c93f5c5bab364ecaa9ddecf0bd20c762d71c741ba1768a0621"
     },
     {
       "path": "RELEASE_GUIDE.md",
