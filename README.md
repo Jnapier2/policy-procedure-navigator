@@ -8,6 +8,10 @@ Version **0.3.2** · build `PP-GKWA-0.3.2-B20260831-EXPORTENTRY1`
 
 **Launch prerequisite:** Python 3.11 or newer. On a fresh computer, the first launch may need ordinary package-network access to install the exact locked runtime dependencies; no model/API credential is needed.
 
+## Explore the reviewer demo
+
+Download and extract the ZIP from the [0.4.1 offline reviewer demo](https://github.com/Jnapier2/policy-procedure-navigator/releases/tag/v0.4.1-reviewer-demo), then open `index.html`. Follow a cited answer, compare what two fictional roles can see, and inspect the support export results.
+
 ## Three-minute walkthrough
 
 Double-click `PolicyNavigator.bat`. The home screen includes a four-step **3-minute recruiter tour**:
