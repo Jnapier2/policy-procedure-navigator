@@ -3,7 +3,7 @@
   "package_id": "gateway.professional-portfolio.governed-knowledge-workflow-assistant",
   "version": "0.3.2",
   "build_id": "PP-GKWA-0.3.2-B20260831-EXPORTENTRY1",
-  "generated_at": "2026-11-16T07:33:09+00:00",
+  "generated_at": "2026-11-19T06:13:50+00:00",
   "hash_algorithm": "SHA-256",
   "managed_file_count": 84,
   "managed_files": [
@@ -255,7 +255,7 @@
     {
       "path": "pyproject.toml",
       "size_bytes": 686,
-      "sha256": "14372a4d772830ea056cec7fc8293356da4fdf40dccec6dc4618a5f3587588b6"
+      "sha256": "f4030389002c85dc8e77188a2e5d39f84bc7b8e686e2b12cea871b85dac91746"
     },
     {
       "path": "QUICK_START.md",
@@ -279,13 +279,13 @@
     },
     {
       "path": "requirements-dev.lock.txt",
-      "size_bytes": 152,
-      "sha256": "f02fb3ed45f1b0d5b01f8746880628d0f7d4f7166c58de5cbd4df20fbc03f5ba"
+      "size_bytes": 153,
+      "sha256": "d5cb8fc75615f8457b0b9bf4e1c8184b61e06b13b6abd6b46e30957bcec62671"
     },
     {
       "path": "requirements.lock.txt",
       "size_bytes": 320,
-      "sha256": "c07143f2d8923b2f33b5c3636a95c4d4cc0510ac6c5cd00f84234b00ff7193cb"
+      "sha256": "fb482fb65ca48b34cbf6a67943d88f82a8cecd5973f4cabcb3c4faa261857d8a"
     },
     {
       "path": "ROADMAP.md",
@@ -294,8 +294,8 @@
     },
     {
       "path": "SBOM.json",
-      "size_bytes": 8230,
-      "sha256": "05ddf674ae0c018584b05d22b4020e995a358fe2fb7b464b107e6bb7d2932fbd"
+      "size_bytes": 8232,
+      "sha256": "a80af854519e18a472d13ee81ecf0b0f1f55e9929417a0abddf63356ed0fec68"
     },
     {
       "path": "scripts/__init__.py",

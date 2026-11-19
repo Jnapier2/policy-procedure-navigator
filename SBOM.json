@@ -61,8 +61,8 @@
     {
       "type": "library",
       "name": "certifi",
-      "version": "2026.5.20",
-      "purl": "pkg:pypi/certifi@2026.5.20",
+      "version": "2026.10.23",
+      "purl": "pkg:pypi/certifi@2026.10.23",
       "scope": "optional",
       "licenses": [
         {
@@ -271,8 +271,8 @@
     {
       "type": "library",
       "name": "pypdf",
-      "version": "6.20.0",
-      "purl": "pkg:pypi/pypdf@6.20.0",
+      "version": "6.21.2",
+      "purl": "pkg:pypi/pypdf@6.21.2",
       "scope": "required",
       "licenses": [
         {
@@ -284,13 +284,13 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "f003fc2014814d264fe7dd3f9d435c158e23e1a85a2233f87a0a2d6d21c914ad"
+          "content": "1d44d1a3a200f25062adff0085b02040e4646431ac2ccac22e42679e91466084"
         }
       ],
       "externalReferences": [
         {
           "type": "distribution",
-          "url": "https://files.pythonhosted.org/packages/18/42/a945f65cc61c739ec80f4112c4b78ed1791f25d33f45f19389c9c9e247e2/pypdf-6.20.0-py3-none-any.whl"
+          "url": "https://files.pythonhosted.org/packages/1b/4d/c9d2d67f204eff463237a1a8f5e25a6923b7b1043982b91fcaf104c8ef60/pypdf-6.21.2-py3-none-any.whl"
         }
       ]
     },
