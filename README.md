@@ -12,6 +12,8 @@ Version **0.3.2** · build `PP-GKWA-0.3.2-B20260831-EXPORTENTRY1`
 
 Download and extract the ZIP from the [0.4.1 offline reviewer demo](https://github.com/Jnapier2/policy-procedure-navigator/releases/tag/v0.4.1-reviewer-demo), then open `index.html`. Follow a cited answer, compare what two fictional roles can see, and inspect the support export results.
 
+**For portfolio review, use the offline demo above.** A dependency security update is being verified for the 0.3.2 runnable edition. The launch instructions below remain available for reference.
+
 ## Three-minute walkthrough
 
 Double-click `PolicyNavigator.bat`. The home screen includes a four-step **3-minute recruiter tour**:
